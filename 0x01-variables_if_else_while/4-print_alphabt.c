@@ -1,4 +1,7 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
 /**
  * main - Prints alphabets in lowercase
  * Return: Always 0 (Success)
@@ -7,14 +10,17 @@
 int main(void)
 
 {
-	char c;
+	char lu, e, q;
 
-	for (c = 'a'; c <= 'd'; c++)
-	putchar(c);
-	for (c = 'f'; c <= 'p'; c++)
-	putchar(c);
-	for (c = 'r'; c <= 'z'; c++)
-	putchar(c);
+	e = 'e';
+	q = 'q';
+
+
+	for (lu = 'a'; lu <= 'z'; lu++)
+	{
+	if (lu != e && lu != q)
+	putchar(lu);
+	}
 	putchar('\n');
 
 	return (0);
