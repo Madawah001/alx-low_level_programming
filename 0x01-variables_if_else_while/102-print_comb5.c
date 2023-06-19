@@ -3,8 +3,8 @@
 #include <time.h>
 
 /**
- * main - prints all possible combinations of two two-digit numbers
- * Return: 0 (Success)
+ * main - Enty point
+ * * Return: Always 0
  *
  */
 int main(void)
