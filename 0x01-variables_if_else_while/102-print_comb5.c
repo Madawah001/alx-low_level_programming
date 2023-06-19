@@ -4,7 +4,7 @@
 
 /**
  * main - prints all possible combinations of two two-digit numbers
- * Return: Always 0
+ * Return: Always 0 (Success)
  *
  */
 int main(void)
@@ -14,6 +14,7 @@ int main(void)
 
 	for  (a = 0; a <= 98; a++)
 	{
+
 	for (b = a + 1; b <= 98; b++)
 	{
 	putchar((a / 10) + '0');
