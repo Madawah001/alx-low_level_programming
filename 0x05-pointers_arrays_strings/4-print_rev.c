@@ -14,10 +14,10 @@ void print_rev(char *s)
 	while (*s != '\0')
 	{
 	longi++;
-	str++;
+	s++;
 	}
 	s--;
-	for (a = longi; a > 0; a++)
+	for (a = longi; a > 0; a--)
 	{
 	_putchar(*s);
 	s--;
